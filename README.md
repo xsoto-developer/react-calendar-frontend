@@ -43,7 +43,6 @@ Usa estas credenciales para acceder a la versión de prueba de la aplicación.
 ### 1. Clonar el repositorio:
 ```
 git clone https://github.com/xsoto-developer/react-calendar-frontend.git
-cd react-gallery-spa
 ```
 ### 2. Instala las dependencias:
 ```
@@ -106,5 +105,5 @@ Esta aplicación frontend funciona en conjunto con el repositorio del backend pa
 
 **Nota: Las instrucciones detalladas de instalación y despliegue del backend están disponibles en el sigiente repositorio**
 ```
-git clone https://github.com/xsoto-developer/node-calendar-backend.git
+https://github.com/xsoto-developer/node-calendar-backend.git
 ```
