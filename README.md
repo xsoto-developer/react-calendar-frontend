@@ -107,3 +107,9 @@ Esta aplicación frontend funciona en conjunto con el repositorio del backend pa
 ```
 https://github.com/xsoto-developer/node-calendar-backend.git
 ```
+## Integración del Backend con el Frontend
+El frontend de `react-calendar-frontend` está completamente integrado con el backend para gestionar la autenticación de usuarios y las acciones del calendario. Esta integración se basa en servicios API y acciones en Redux para mantener el estado sincronizado.
+### Autenticación y Manejo de JWT
+- **Autenticación:** La aplicación utiliza autenticación basada en JSON Web Tokens (JWT). Al iniciar sesión, el backend genera un JWT que el frontend almacena para autenticar futuras solicitudes.
+- **Registro y Actualización del Token:** El token de autenticación se renueva automáticamente para mantener la sesión activa, y se actualiza en el frontend cuando es necesario.
+- **Pruebas de Autenticación:** Para asegurar un correcto funcionamiento, se deben realizar pruebas en las rutas protegidas y verificar que el token se actualice correctamente al caducar.
