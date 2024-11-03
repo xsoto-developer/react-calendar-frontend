@@ -14,13 +14,13 @@ Credenciales de Acceso (para pruebas)
 Usa estas credenciales para acceder a la versión de prueba de la aplicación.
 
 ## Funcionalidades
-1. **Autenticación:** Registro y acceso seguro para gestionar eventos personales.
-2. **Gestión de Eventos:**
+**1. Autenticación:** Registro y acceso seguro para gestionar eventos personales.
+**2. Gestión de Eventos:**
 - Creación de eventos con validación de fechas.
 - Edición y eliminación de eventos.
 - Visualización de eventos en un calendario interactivo.  
-3. **Modales y Notificaciones:**  Para confirmar acciones y mostrar mensajes al usuario.
-4. **Interfaz y Estilo:** Interfaz atractiva y moderna con Bootstrap v5.2.
+**3. Modales y Notificaciones:**  Para confirmar acciones y mostrar mensajes al usuario.
+**4. Interfaz y Estilo:** Interfaz atractiva y moderna con Bootstrap v5.2.
 
 ## Tecnologías y Librerías
 ### Lógica y Estado GlobalDesarrollo en React
@@ -74,12 +74,10 @@ Este proyecto permite configurar diferentes ambientes (development, test, produc
 - En el archivo `.env`, ajustar las variables según el entorno de desarrollo.
 ```
 VITE_API_URL=http://localhost:4000/api
-
 ```
 ### 3. Iniciar en modo desarrollo:  
 ```
 yarn dev
-
 ```
 
 ## Test
@@ -87,22 +85,18 @@ yarn dev
 - Crear un archivo `.env.test`  con las variables específicas para pruebas.
 ```
 VITE_API_URL=http://localhost:4001/api
-
 ```
 ### 2. Iniciar en modo de pruebas:
 ```
 yarn test
-
 ```
 ## Production
 ### 1. Configurar las Variables de Entorno:
 - Crear un archivo `.env.production` con las variables específicas para pruebas.[https://railway.app/] 
 ```
 VITE_API_URL=https://api.production.com/api
-
 ```
 ### 2. Compilar para producción:
 ```
 yarn build
-
 ```
