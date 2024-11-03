@@ -104,8 +104,7 @@ yarn build
 ## Repositorio del Backend
 Esta aplicación frontend funciona en conjunto con el repositorio del backend para gestionar la autenticación y los datos de los eventos en MongoDB. Para el funcionamiento completo, es necesario ejecutar ambos proyectos (frontend y backend) en el entorno que elijan: desarrollo (dev), pruebas (test) o producción (prod).
 
-**Nota: Las instrucciones detalladas de instalación y despliegue del backend están disponibles en su repositorio correspondiente.**
-### Clonar el repositorio:
+**Nota: Las instrucciones detalladas de instalación y despliegue del backend están disponibles en el sigiente repositorio**
 ```
 git clone https://github.com/xsoto-developer/node-calendar-backend.git
 ```
